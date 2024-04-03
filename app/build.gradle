@@ -21,7 +21,7 @@ android {
         }
         python {
             version = "3.8"
-            buildPython "C:/Users/mendh/AppData/Local/Programs/Python/Python38/python.exe"
+            buildPython "C:/Users/aishh/AppData/Local/Programs/Python/Python311/python.exe"
         }
         python{
             pip {
@@ -75,4 +75,5 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+//    implementation("org.jetbrains.kotlinx:dataframe:0.12.1")
 }

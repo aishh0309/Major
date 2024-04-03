@@ -81,8 +81,13 @@
             android:layout_height="wrap_content"
             android:paddingTop="16dp"
             android:text="" />
-    </ScrollView>
 
+    </ScrollView>
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
     <Button
         android:id="@+id/viewScoreButton"
         android:layout_width="wrap_content"
@@ -91,5 +96,7 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#4CAF50"
         android:text="View Score" />
+
+
 
 </LinearLayout>
